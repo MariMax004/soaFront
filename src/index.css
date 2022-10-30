@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+main div {
+    width: 30%;
+    margin-bottom: 50px;
+    background: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+
+main h2,
+main p {
+    margin: 20px;
+}
+
+main .add-to-card {
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    background: #4caf50;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+}
+
+main .delete-card {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    background: #ca5252;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+}
+
+main .view-card {
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
+    background: #1976d2;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+}
+
+main .add-to-card:hover {
+    transform: scale(1.5)
+}
+
+main .delete-card:hover {
+    transform: scale(1.5)
+}
+
+main .view-card:hover {
+    transform: scale(1.5)
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
